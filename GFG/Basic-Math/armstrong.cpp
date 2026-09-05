@@ -6,7 +6,7 @@ class Solution {
             int ld=n%10;
             sum=sum+ pow(ld,3);
             n=n/10;
-            
+          
         }
         if(og==sum){
             return true;
