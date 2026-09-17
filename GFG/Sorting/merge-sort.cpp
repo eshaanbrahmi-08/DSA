@@ -1,6 +1,6 @@
 class Solution {
   public:
-    void merge(vector<int> &arr,int low,int mid,int high){
+    void merge(vector<int> &arr,int low,int mid,int high){    //merge the smaller parts after sorting them.
         vector<int> temp;
         int left=low;
         int right=mid+1;
@@ -28,7 +28,7 @@ class Solution {
         }
         
     }
-    void mergeSort(vector<int>& arr, int low, int high) {
+    void mergeSort(vector<int>& arr, int low, int high) {  // break into smaller parts
         if(low>=high) return;
         int mid=(low+high)/2;
         mergeSort(arr,low,mid);
