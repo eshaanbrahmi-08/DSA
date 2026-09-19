@@ -1,3 +1,4 @@
+// TC= O(N logN)
 class Solution {
   public:
     void merge(vector<int> &arr,int low,int mid,int high){    //merge the smaller parts after sorting them.
