@@ -1,3 +1,5 @@
+//DIVIDE AND CONQUER
+//TC= O(N logN)
 class Solution {
   public:
     void quickSort(vector<int>& arr, int low, int high) {
